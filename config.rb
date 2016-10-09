@@ -43,4 +43,4 @@ configure :build do
   # activate :minify_javascript
 end
 
-set :root, 'source/index.html'
+
