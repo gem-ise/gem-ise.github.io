@@ -8,6 +8,10 @@
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
+set :url_root, 'https://gem-ise.github.io'
+
+activate :search_engine_sitemap
+activate :directory_indexes
 
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
@@ -36,11 +40,12 @@ end
 
 # Build-specific configuration
 configure :build do
-  # Minify CSS on build
-  # activate :minify_css
+  activate :minify_css
+  activate :minify_javascript
 
-  # Minify Javascript on build
-  # activate :minify_javascript
+  # Append a hash to asset urls (make sure to use the url helpers)
+  activate :asset_hash
+
+  activate :asset_host, :host => 'https://gem-ise.github.io/'
 end
-
 
