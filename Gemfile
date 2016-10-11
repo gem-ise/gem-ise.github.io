@@ -14,3 +14,7 @@ gem 'middleman-livereload'
 gem 'middleman-compass', '>= 4.0.0'
 
 gem 'mgd'
+gem 'activesupport', '~> 4.2'
+gem 'uglifier', '~> 3.0'
+gem 'execjs' ,'~> 2.0'
+gem 'hashie', '~> 3.4'

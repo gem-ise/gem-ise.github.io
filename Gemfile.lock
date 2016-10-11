@@ -52,6 +52,9 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
     memoist (0.15.0)
+    mgd (0.1.0)
+      middleman (>= 3.0.0)
+      trollop (= 2.1.2)
     middleman (4.1.10)
       coffee-script (~> 2.2)
       compass-import-once (= 1.0.5)
@@ -112,6 +115,7 @@ GEM
     thor (0.19.1)
     thread_safe (0.3.5)
     tilt (1.4.1)
+    trollop (2.1.2)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
     uglifier (3.0.2)
@@ -121,10 +125,15 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activesupport (~> 4.2)
+  execjs (~> 2.0)
+  hashie (~> 3.4)
+  mgd
   middleman (>= 4.0.0)
   middleman-compass (>= 4.0.0)
   middleman-livereload
   tzinfo-data
+  uglifier (~> 3.0)
   wdm (~> 0.1.0)
 
 BUNDLED WITH
