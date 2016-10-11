@@ -12,7 +12,5 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 gem 'middleman', '>= 4.0.0'
 gem 'middleman-livereload'
 gem 'middleman-compass', '>= 4.0.0'
-gem 'activesupport', '>= 3.1',' ~> 4.2'
-gem 'uglifier', '~> 3.0'
-gem 'execjs', '~> 2.0'
-gem 'hashie', '~> 3.4'
+
+gem 'mgd'
