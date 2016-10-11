@@ -8,9 +8,9 @@
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
-set :url_root, 'https://gem-ise.github.io'
+# set :url_root, 'https://gem-ise.github.io'
 
-activate :search_engine_sitemap
+# activate :search_engine_sitemap
 activate :directory_indexes
 
 # With alternative layout
