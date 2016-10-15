@@ -1,14 +1,14 @@
 .ise-intro{
 	height:497px;
-	background-color: blue
+	background-color: #FAFAFA
 }
 .title{
-	padding-left:525px;
-	color: orange;
+	padding-left:520px;
+	color: red;
 }
 .text{
-	padding-left:332px;
+	padding-left:320px;
 	padding-top:76px;
 	text-align:center;
-	color:orange;
+	color:red;
 }
