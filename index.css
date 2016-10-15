@@ -1,12 +1,11 @@
 .ise-intro{
-	height: 497px;
+	height:497px;
 }
-h2.ise-intro{
-	padding-left: 525px;
+h2.first-part{
+	padding-left:525px;
 }
-p.ise-intro{
-	padding-left: 332px;
-	padding-top: 76px;
-	text-align: center;
-
+p.first-part{
+	padding-left:332px;
+	padding-top:76px;
+	text-align:center;
 }
