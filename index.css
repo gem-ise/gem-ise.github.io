@@ -2,11 +2,11 @@
 	height:497px;
 	background-color: blue
 }
-h2.first-part{
+.title{
 	padding-left:525px;
 	color: orange;
 }
-p.first-part{
+.text{
 	padding-left:332px;
 	padding-top:76px;
 	text-align:center;
